@@ -102,81 +102,104 @@ All forecast results are summarised in structured DataFrames with key metrics, i
 
 This allows quick comparison and easier integration into reports.
 
-## 🔎 Result Interpretation
+---
 
-The forecasting model was evaluated across three countries — **Colombia**, **Thailand**, and the **United Kingdom** — using historical data up to 2020 and projecting energy consumption for five subsequent years (2021–2025). Below is a summary of the results and critical interpretation.
+## 📋 Result Interpretation by Country
 
 ---
 
 ### 🇨🇴 Colombia
+- **Carbon Emissions:**
 
-**Forecast Trends:**
+![Image](https://github.com/user-attachments/assets/d5bf0ba3-d040-48a6-95fc-5a4a788aac35)
 
-![Image](https://github.com/user-attachments/assets/99ed4b97-6312-4f16-ba8b-e4da99b77afb)
+  - Predicted emissions closely track actual values with minor fluctuations.
+  - Confidence intervals are reasonably narrow, indicating moderate certainty.
+  - MAE (~4,029) and RMSE (~5,116) show good predictive accuracy relative to emission scale.
+  - Forecast suggests a fairly stable carbon emission trend with minor variations.
 
-- The model predicts a steady increase in energy consumption post-2020, peaking in 2023.
-- Despite a drop in actual consumption in 2021, predictions indicate recovery and gradual growth.
-- Forecasts remain within a reasonably narrow confidence interval, suggesting stability.
+- **Energy Consumption:**
 
-**Performance:**
+![Image](https://github.com/user-attachments/assets/2f4fec09-f8f2-407f-916f-7822012fab94)
 
-- **MAE**: ~4,029 kWh/person
-- **RMSE**: ~5,116 kWh/person
-- Indicates a good level of accuracy relative to the scale of consumption.
+  - Predictions slightly overestimate actual values but remain within acceptable error margins.
+  - Confidence intervals are narrow, indicating reliable model performance.
+  - Energy demand appears stable over the forecast horizon.
 
-**Interpretation:**
-
-The forecasted rebound after 2021 likely reflects recovery from pandemic-related disruptions. With increasing renewable capacity and development aid, Colombia appears positioned for energy growth aligned with sustainability.
+- **Summary:**
+  - Both carbon emissions and energy consumption forecasts reflect stability.
+  - Model performance is strong with relatively low errors.
+  - Confidence intervals support the reliability of predictions.
 
 ---
 
 ### 🇹🇭 Thailand
 
-**Forecast Trends:**
+- **Carbon Emissions:**
 
-![Image](https://github.com/user-attachments/assets/9d6a04f9-aca4-4f10-8be0-ee9e4819ed09)
+![Image](https://github.com/user-attachments/assets/618ab88c-09f3-4b51-b59b-83fdf2200e66)
 
-- Predicted energy consumption shows consistent growth from 2020 through 2023.
-- Confidence intervals remain tight, signalling model certainty.
-- Forecasts slightly overestimate consumption compared to recent actuals.
+  - Predictions show a consistent upward trend, slightly exceeding recent actual values.
+  - Tight confidence intervals suggest reliable forecasts.
+  - Higher MAE (~15,870) and RMSE (~18,109) reflect greater variability in emissions.
+  - Variability may relate to economic or energy policy changes.
 
-**Performance:**
+- **Energy Consumption:**
 
-- **MAE**: ~15,870 kWh/person
-- **RMSE**: ~18,109 kWh/person
+![Image](https://github.com/user-attachments/assets/3a4f8c64-64eb-4220-a436-0ad1a46afcfa)
 
-**Interpretation:**
+  - Forecasts exhibit a steady increase aligned with economic growth.
+  - Moderate error metrics (MAE ~1,539, RMSE ~1,554) indicate good model fit.
+  - Confidence intervals support forecast robustness.
 
-Thailand’s rising consumption trend is consistent with ongoing industrialisation and economic development. Higher error margins reflect volatility in recent years, potentially due to external shocks or infrastructural transitions.
+- **Summary:**
+  - Both carbon emissions and energy consumption are trending upward.
+  - Model captures variability but shows higher errors than Colombia.
+  - Results highlight dynamic changes likely influenced by development and policy factors.
 
 ---
 
 ### 🇬🇧 United Kingdom
 
-**Forecast Trends:**
+- **Carbon Emissions:**
 
-![Image](https://github.com/user-attachments/assets/73c721ea-1a46-4e42-a225-e6e6fe27cd4a)
+![Image](https://github.com/user-attachments/assets/c8405cdc-37ac-4441-b1f1-5a07be11901e)
 
-- A steady decline in predicted energy consumption is observed from 2020 to 2023.
-- Forecasts reflect ongoing national efforts to improve energy efficiency and reduce dependency on fossil fuels.
-- Wider confidence intervals from 2021 onwards indicate greater uncertainty.
+  - Forecasts indicate a downward trend reflecting emission reduction policies.
+  - Wider confidence intervals and higher errors (MAE ~41,496, RMSE ~41,737) suggest complexity.
+  - Model captures overall decreasing trend despite socio-economic influences.
 
-**Performance:**
+- **Energy Consumption:**
 
-- **MAE**: ~41,496 kWh/person
-- **RMSE**: ~41,737 kWh/person
+![Image](https://github.com/user-attachments/assets/a2baf6fb-5545-4fcc-a4c9-84046b8d6fd7)
 
-**Interpretation:**
+  - Modest decline in consumption with predictions closely matching actual figures.
+  - Reasonable errors (MAE ~2,355, RMSE ~2,386) show good model fit.
+  - Confidence intervals indicate dependable forecasts.
 
-The UK’s downward trend aligns with climate policy shifts and deindustrialisation. However, the larger forecasting errors suggest more complex dynamics at play, including rapid decarbonisation efforts and energy market reforms.
+- **Summary:**
+  - Both emissions and consumption are declining, consistent with policy impacts.
+  - Higher prediction errors reflect complex factors affecting the UK’s energy profile.
+  - Forecasts provide valuable insights for sustainable planning.
 
 ---
 
-**General Observations:**
+### 🔍 Overall Insights
 
-- All forecasts maintain a 90% confidence level, providing a balanced view of potential variance.
-- The model performs better in countries with less fluctuation in historical data (e.g., Colombia).
-- Predictions should be interpreted in conjunction with socio-economic factors such as GDP growth, clean energy investment, and policy changes reflected in the dataset.
+- The forecasting models demonstrate strong capability in capturing the distinct energy and emission trends of each country analysed.
+- **Colombia** exhibits relative stability in both carbon emissions and energy consumption, reflected by lower error metrics and narrow confidence intervals, indicating reliable predictions.
+- **Thailand** shows a consistent upward trend in emissions and consumption, with higher prediction errors, suggesting greater variability likely influenced by rapid economic development and policy changes.
+- **The United Kingdom** reflects a declining trajectory in carbon emissions and energy consumption, consistent with environmental policies, though wider confidence intervals and increased errors highlight underlying complexity in forecasting mature economies.
+- Confidence intervals set at 90% provide useful uncertainty bounds, enhancing the trustworthiness of the forecasts.
+- Higher errors in larger and more dynamic economies suggest opportunities for further model tuning and incorporation of additional explanatory variables.
+- Overall, these insights support informed decision-making for sustainable energy management and carbon reduction strategies tailored to each country’s unique context.
+
+
+
+
+
+
+
 
 
 
