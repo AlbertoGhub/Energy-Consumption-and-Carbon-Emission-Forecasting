@@ -1,8 +1,12 @@
 # 🌍 Energy Consumption and Carbon Emissions Forecasting
 
+---
+
 ## 📌 Overview
 
 This project presents a machine learning solution to forecast **energy consumption** and **carbon emissions** for various countries, focusing on sustainable development and climate impact. By analysing historical data and applying forecasting techniques, we predict future trends and provide visual insights for better policy and decision-making.
+
+---
 
 ## 🎯 Objective
 
@@ -11,6 +15,8 @@ To develop a reliable machine learning pipeline capable of:
 1. **Predicting future energy consumption** (kWh/person) for each country.
 2. **Forecasting carbon emissions levels** (metric tons per capita) for each country.
 3. **Visualising the energy and emission trends** for at least three selected countries over the next five years (2021–2025), with supporting insights drawn from the dataset.
+
+---
 
 ## 🛠️ Workflow
 
@@ -23,6 +29,8 @@ The project follows a complete machine learning workflow:
 - **Forecasting with confidence intervals**
 - **Visualisation and analysis**
 - **Result interpretation and critical justification**
+
+---
 
 ## 📊 Key Features in the Dataset
 
@@ -47,6 +55,8 @@ The project follows a complete machine learning workflow:
 | `GDP per capita` | Economic output per person |
 | `Density`, `Land Area`, `Latitude`, `Longitude` | Geographic and demographic indicators |
 
+---
+
 ## 📈 Visualisation & Results
 
 The project includes interactive visualisations generated with **Seaborn** and **Matplotlib**, featuring:
@@ -56,12 +66,16 @@ The project includes interactive visualisations generated with **Seaborn** and *
 - Comparative analysis of countries (e.g., Colombia, Thailand, the UK)
 - Graphs are automatically saved to the `/images/` folder for reporting
 
+---
+
 ## 💡 Methodology
 
 - **Libraries**: `pandas`, `numpy`, `sktime`, `scikit-learn`, `matplotlib`, `seaborn`
 - **Forecasting Models**: Time series forecasters from `sktime` (e.g., ARIMA, Exponential Smoothing)
 - **Evaluation Metrics**: MAE, MSE, RMSE
 - **Confidence Intervals**: Integrated into predictions for uncertainty estimation
+
+---
 
 ## 📁 Project Structure
 
@@ -78,10 +92,13 @@ The project includes interactive visualisations generated with **Seaborn** and *
 └── requirements.yml
 ```
 
+---
+
 # 🚀 How to Run
 
 1. Clone this repository
 2. Install dependencies: `pip install -r requirements.txt` or `conda install --file requirements.yml`
+
 ## 👌 Explanation
 
 ```pip```: For standard Python virtual environments (requirements.txt)
@@ -91,6 +108,7 @@ The project includes interactive visualisations generated with **Seaborn** and *
 ## Note
 To install ```sktime```, you need to have python 3.10 - 3.12 version for compatibility
 
+---
 
 ## 📋 Results Summary
 
@@ -109,6 +127,7 @@ This allows quick comparison and easier integration into reports.
 ---
 
 ### 🇨🇴 Colombia
+
 - **Carbon Emissions:**
 
 ![Image](https://github.com/user-attachments/assets/d5bf0ba3-d040-48a6-95fc-5a4a788aac35)
@@ -194,23 +213,30 @@ This allows quick comparison and easier integration into reports.
 - Higher errors in larger and more dynamic economies suggest opportunities for further model tuning and incorporation of additional explanatory variables.
 - Overall, these insights support informed decision-making for sustainable energy management and carbon reduction strategies tailored to each country’s unique context.
 
+---
 
+## 📦 Libraries Used ((Pending on modification))
 
+- ```pandas```
 
+- ```numpy```
 
+- ```matplotlib```
 
+- ```plotly```
 
+- ```scikit-learn```
 
+- ```sktime```
 
-
-
-
-
+---
 
 ## 📌 Notes
 
 - Warnings related to deprecated parameters (e.g., `force_all_finite`) are gracefully suppressed to ensure clean output.
 - Graphs are saved automatically using the country name as the filename.
+
+---
 
 ## 🔍 Future Improvements
 
@@ -218,9 +244,11 @@ This allows quick comparison and easier integration into reports.
 - Use ensemble forecasting models
 - Deploy as a web app for real-time querying (Streamlit or Dash)
 
+---
+
 ## 👨‍💻 Author
 
-Developed as part of a Machine Learning Engineering assignment.
+Developed with ❤️ by Alberto AJ - AI/ML Engineer as part of a Machine Learning Engineering assignment.
 
 ---
 
