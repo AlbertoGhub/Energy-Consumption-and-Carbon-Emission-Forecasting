@@ -112,6 +112,8 @@ The forecasting model was evaluated across three countries — **Colombia**, **T
 
 **Forecast Trends:**
 
+![Image](https://github.com/user-attachments/assets/99ed4b97-6312-4f16-ba8b-e4da99b77afb)
+
 - The model predicts a steady increase in energy consumption post-2020, peaking in 2023.
 - Despite a drop in actual consumption in 2021, predictions indicate recovery and gradual growth.
 - Forecasts remain within a reasonably narrow confidence interval, suggesting stability.
@@ -132,6 +134,8 @@ The forecasted rebound after 2021 likely reflects recovery from pandemic-related
 
 **Forecast Trends:**
 
+![Image](https://github.com/user-attachments/assets/9d6a04f9-aca4-4f10-8be0-ee9e4819ed09)
+
 - Predicted energy consumption shows consistent growth from 2020 through 2023.
 - Confidence intervals remain tight, signalling model certainty.
 - Forecasts slightly overestimate consumption compared to recent actuals.
@@ -150,6 +154,8 @@ Thailand’s rising consumption trend is consistent with ongoing industrialisati
 ### 🇬🇧 United Kingdom
 
 **Forecast Trends:**
+
+![Image](https://github.com/user-attachments/assets/73c721ea-1a46-4e42-a225-e6e6fe27cd4a)
 
 - A steady decline in predicted energy consumption is observed from 2020 to 2023.
 - Forecasts reflect ongoing national efforts to improve energy efficiency and reduce dependency on fossil fuels.
