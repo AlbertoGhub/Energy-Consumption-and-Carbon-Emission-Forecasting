@@ -215,7 +215,7 @@ This allows quick comparison and easier integration into reports.
 
 ---
 
-## 📦 Libraries Used ((Pending on modification))
+## 📦 Libraries
 
 - ```pandas```
 
